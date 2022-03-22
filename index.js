@@ -2,7 +2,6 @@ const puppeteer = require('puppeteer');
 const urls = require('./urls');
 require('dotenv').config();
 
-
 async function submitTimesheet() {
 
     const browser = await puppeteer.launch(
